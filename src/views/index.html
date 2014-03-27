@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title><%= name %></title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<h1><%= name %></h1>
+				<p><%= description %></p>
+				<ul>
+					<% for(var i = 0; i < steps.length; i ++ ) {%>
+					<li>
+						<%= steps[i]%>
+					</li>
+					<% }%>
+				</ul>
+				<p>
+					<a class="btn btn-primary btn-lg">Learn more</a>
+				</p>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "Example Service",
+  "description": "This is an example service using this template will make life easier when it comes to review and deployment.",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.1",
+    "ejs": "~1.0.0"
+  }
+}
