@@ -4,5 +4,7 @@ This is just a simple starting point for a nodejs express web service. There is 
 
 ## Getting Started
 
-- cd src/ && node app
-- open http://localhost:3000
+- Install grunt globally `sudo npm  install -g grunt grunt-cli`
+- Install local packages `npm install`
+- `cd src/ && node app`
+- In your browser go to `http://localhost:3000`
