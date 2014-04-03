@@ -1,0 +1,15 @@
+
+@lightest: #FFFFFF;
+@light: #E5E1D1;
+@dark: #52616D;
+@darker: #2C343B;
+@highlight: #C44741;
+
+.box {
+  color: @dark;
+  border-color: @darker;
+}
+.box div {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
